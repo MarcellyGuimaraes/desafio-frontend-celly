@@ -11,7 +11,7 @@ function App() {
         bg-gradient-to-b from-orange-500 to-yellow-400 w-screen h-screen"
     >
       <h1 onClick={handleClick} className="font-bold text-6xl text-white mb-8">
-        Previsão do tempo
+        Previsão do tempoaaaaaaaaaaaas
       </h1>
       <div id="test" className="bg-slate-100 w-fit h-48 p-9 m-14">
         <span>Niteroi, RJ - Brasil</span>

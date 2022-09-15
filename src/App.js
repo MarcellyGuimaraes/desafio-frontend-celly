@@ -1,20 +1,6 @@
 import './App.css'
 
 function App() {
-  fetch('https://api.hgbrasil.com/weather?key=ee302ce2')
-    .then((response) => response.json())
-    .then((data) => {
-      //Aqui iremos trabalhar com o JSON
-      data.forEach((cities) => {
-        // Log de cada nome de filme
-        console.log(cities.city)
-      })
-    })
-    .catch((err) => {
-      //Fazer algo com os erros aqui
-      console.log(err)
-    })
-
   const handleClick = () => {
     const element = document.querySelector('#test')
     element.classList.toggle('hidden')

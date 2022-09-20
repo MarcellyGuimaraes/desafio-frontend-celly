@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import TableWeather from './Components/TableWeather'
-import { getWeather } from './fetchApiFunc'
+import { getWeather } from './api/fetchApiFunc'
 import { IconClose, IconDown, IconUp } from './Components/Icon'
 import SearchInput from './Components/SearchInput'
 

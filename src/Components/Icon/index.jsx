@@ -1,5 +1,4 @@
 import React from 'react'
-import { handleClick } from '../../App'
 
 export const IconClose = () => {
   return (
@@ -11,7 +10,6 @@ export const IconClose = () => {
         strokeWidth={1.5}
         stroke="currentColor"
         className="w-5 h-5 absolute p ml-80 -mt-6"
-        onClick={handleClick}
       >
         <path
           strokeLinecap="round"

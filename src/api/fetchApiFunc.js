@@ -10,5 +10,6 @@ export const getWeather = async (lat, long, set) => {
       units: 'metric',
     },
   })
+
   set(res.data)
 }
